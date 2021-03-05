@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <!-- podria poner ID (menos practico pasa css, nose pueden repetir nombres)-->
+        <!--puedo asignar dos class poneinedo espacio, uno es site-header otro inicio-->
+
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                <!-- cuando ponemos / te lleva a la pagina principal osea al inicio-->
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                    <!-- formato svg (de illustrator o adobe xd - vectores! -->
+                </a>
+                <nav class="navegacion">
+                    <a target="_blank" href="nosotros.html">Nosotros</a>
+                    <!--target blank te abre en otra pestaña-->
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contactos.html">Contactos</a>
+                </nav>
+            </div>
+        
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="fw-300 centrar-texto">Conoce sobre Nosotros</h3>
+        <div class="contenido-nosotros">
+            <div class="imagen-nosotros">
+                <img src="img/nosotros.jpg" alt="Nosotros">
+            </div>
+           <div class="texto-nosotros">
+             <blockquote>25 años de experiencia</blockquote>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nobis adipisci velit aspernatur! Quis beatae repudiandae natus suscipit nam architecto maxime cupiditate debitis quod dolore deserunt, ex, totam consectetur ut?</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nobis adipisci velit aspernatur! Quis beatae repudiandae natus suscipit nam architecto maxime cupiditate debitis quod dolore deserunt, ex, totam consectetur ut?</p>
+           </div>
+        </div>
+    </main>
+
+    <section class=contenedor seccion> 
+        <!-- para usar section tiene que haber un heading (h1h2h3) como primer hijo-->  
+            <h2 class="fw-300 centrar-texto">Más sobre Nosotros</h2>
+            <div class="iconos-nosotros">
+                <div class="icono">
+                    <img src="img/icono1.svg" alt="Icono Seguridad">
+                    <h3 class="encabezado">SEGURIDAD</h3>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi atque obcaecati tenetur, illo provident perspiciatis iusto dicta aut excepturi. Ducimus vitae deserunt accusamus optio voluptate earum nulla tempora doloremque officiis.</P>
+                </div>  
+                <div class="icono">
+                    <img src="img/icono2.svg" alt="Icono Precio">
+                    <h3>El mejor Precio</h3>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi atque obcaecati tenetur, illo provident perspiciatis iusto dicta aut excepturi. Ducimus vitae deserunt accusamus optio voluptate earum nulla tempora doloremque officiis.</P>
+                </div>
+                <div class="icono">
+                    <img src="img/icono3.svg" alt="Icono Tiempo">
+                    <h3>A tiempo</h3>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi atque obcaecati tenetur, illo provident perspiciatis iusto dicta aut excepturi. Ducimus vitae deserunt accusamus optio voluptate earum nulla tempora doloremque officiis.</P>
+                </div>
+            </div>
+        </section>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a target="_blank" href="nosotros.html">Nosotros</a>
+                <!--target blank te abre en otra pestaña-->
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contactos.html">Contactos</a>
+            </nav>
+
+            <p class="copyright">Todos los Derechos Reservados &copy;</p>
+            <!-- &copy es un entidad - googlear -->
+        </div>
+    </footer>
+</body>
+</html>
